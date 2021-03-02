@@ -13,6 +13,7 @@ static const int failonclear = 1;
 
 /* default message */
 static const char * message = "Suckless: Software that sucks less.";
+//slock -m "$(fortune | cowsay -f $(find /usr/share/cows -type f | shuf -n 1))"
 
 /* text color */
 static const char * text_color = "#a9b1d6";
