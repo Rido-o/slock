@@ -16,7 +16,7 @@ static const char * message = "Suckless: Software that sucks less.";
 //slock -m "$(fortune | cowsay -f $(find /usr/share/cows -type f | shuf -n 1))"
 
 /* text color */
-static const char * text_color = "#a9b1d6";
+static const char * text_color = "#e6d6ac";
 
 /* text size (must be a valid size) */
 static const char * font_name = "fixed";
